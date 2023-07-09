@@ -3,7 +3,6 @@ import {ICommandExecFfmpeg, IFfmpegInput} from "./ffmpeg.types";
 import {IStreamLogger} from "../../core/handler/stream-logger.interface";
 import {FileService} from "../../core/files/file.service";
 import {PromptService} from "../../core/promt/promt.service";
-import {ICommandExec} from "../../core/executer/command.types";
 import {FfmpegBuilder} from "./ffmpeg.builder";
 import {ChildProcessWithoutNullStreams, spawn} from "child_process";
 import {StreamHandler} from "../../core/handler/stream.handler";

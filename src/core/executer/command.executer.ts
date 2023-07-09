@@ -1,10 +1,4 @@
-//1 ввод данных
-//2 билд команды
-//билд команды
-//спаунд + доп действия
-
 import {IStreamLogger} from "../handler/stream-logger.interface";
-import {ConsoleLogger} from "../../out/console-logger/console-logger";
 import {ChildProcessWithoutNullStreams} from "child_process";
 import {ICommandExec} from "./command.types";
 
