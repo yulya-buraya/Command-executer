@@ -9,7 +9,7 @@ import {ChildProcessWithoutNullStreams} from "child_process";
 import {ICommandExec} from "./command.types";
 
 export abstract class CommandExecuter<Input> {
-    private constructor(private logger: IStreamLogger) {
+    constructor(private logger: IStreamLogger) {
     }
 
     public async execute() {
